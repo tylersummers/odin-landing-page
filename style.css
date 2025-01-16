@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', 'Arial'
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    flex-grow: 1;
+    align-content: center;
+    margin-left: 25px;
+}
+
+.links {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-basis: 500px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+li {
+    font-size: 18px;
+    color: #e5e7eb;
+}
