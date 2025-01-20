@@ -24,7 +24,7 @@ body {
     flex-basis: 500px;
 }
 
-ul {
+.links ul {
     list-style: none;
     display: flex;
     gap: 16px;
@@ -33,4 +33,107 @@ ul {
 li {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.title-container {
+    display: flex;
+    background-color: #1f2937;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    gap: 32px;
+    padding: 120px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.title-subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.title-button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #f9faf8;
+    background-color: #3882f6;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 900;
+    width: 145px;
+    border-radius: 16px;
+}
+
+.title-container-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    gap: 18px;
+}
+
+.title-container-right {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.title-img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-text {
+    display: flex;
+    flex-direction: row;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    padding: 40px;
+}
+
+.info-gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.info-gallery img {
+    width: 200px;
+    height: 200px;
+    border: 4px solid lightskyblue;
+}
+
+.info-gallery ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-basis: 300px;
+}
+
+.info-subtext {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.info-img {
+    gap: 32px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 16px;
 }
